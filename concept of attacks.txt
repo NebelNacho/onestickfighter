@@ -1,0 +1,20 @@
+platform fighter
+only one stick controlls (pfeiltasten)
+
+
+
+up, grounded: jump, schraube, teleport
+up, airborn: uair, doppelsprung, nair
+
+down, grounded: slide, dsmash, shine, projectile, combo, shield, grab
+down, airborn: takedown, stomp, dair, fastfall, falcon kick, shine, airdodge, airgrab?
+
+side, grounded: sprint mit hitbox am anfang, fox illusion, projectile(dann sprint), wavedash
+side, airborn: F O R W A R D  A E R I A L, projectile, fox illusion, combo, sprint(combo bei connect)
+
+special:
+shinespam (down)
+luigi missile (side)
+command grab (side)
+backair???
+input combos, ultra smash?

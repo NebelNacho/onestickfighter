@@ -1,0 +1,23 @@
+onestick fighter
+
+onestick fighter (mobile):
+physikbasiert
+
+linke bildschirmhälfte: stick, rechte hälfte: button
+
+stick zieht hände in eine richtung (ähnlich zu stickfight: the game)
+button: schlag
+in richtung des sticks: bewegung
+ebenfalls bei drücken des knopfes: erhöhung der bewegungsweite-variable
+funktion dafür: x^k bis zum maximum, danach -x^l (l>k)
+wert der bewegung entspricht f(m), bei jedem mal drücken erhöht sich m um einen bestimmten wert
+bei nicht drücken sinkt m jeden frame um x^n, x=seit letztem druck vergangene frames
+
+wert der bewegung beeinflusst flugweite, flugweite etwaiger getroffener gegner(schlagkraft)
+
+rigidbody wird auf gegner gespeichert, fliegt los, wenn m 0 erreicht
+
+schlag aufladbar: bei gedrückt halten steigt m linear, bei loslassen wird ein starker schlag abgefeuert, m sinkt sofort auf 0
+maximale stärke ist höher als bei kombos, nützlich als recovery
+
+bei aufladen des schlages kann anfängliche hitbox grabben→nach aufladen wird gegner in gezielte richtung geschleudert, wenn wand oder boden gegrabbt wurde, wird stattdessen spieler stark geschleudert
